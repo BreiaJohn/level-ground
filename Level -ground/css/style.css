@@ -1,0 +1,196 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: #66758a;
+}
+main {
+  background-color: #66758a;
+  float: left;
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  color: lightgrey;
+}
+.topSection {
+  width: 100%;
+  float: left;
+  text-align: center;
+  height: 350px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+Main a {
+  float: left;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: lightgray;
+}
+.logo {
+  padding: 10px 0;
+  margin-right: 120px;
+}
+main #donut {
+  color: lightgray;
+  float: right;
+  padding: 10px 40px;
+  border: solid;
+  color: #66758a;
+  font-weight: 600;
+  background-color: whitesmoke;
+  margin-left: 0 15px;
+}
+.small {
+  position: relative;
+  bottom: 26px;
+  padding-left: 40px;
+}
+
+.big {
+  color: #1c2652;
+  position: relative;
+  right: 220px;
+  top: 46px;
+}
+.upperCase + p {
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+.upperCase + span {
+}
+
+.biggOne {
+  background-color: lightgray;
+  width: 100%;
+  float: left;
+  height: 500px;
+}
+.pickMe {
+  padding-bottom: 200px;
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 400px;
+}
+.pickMe h3 {
+  padding-bottom: 50px;
+}
+.pickMe h3 + p {
+  padding-bottom: 150px;
+}
+.pickMe a {
+  color: #1c2652;
+  border: solid 1px #1c2652;
+  padding: 10px 25px;
+  text-decoration: none;
+
+  
+}
+.thisTwo {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-top: 80px;
+}
+.thisTwo p {
+  padding: 20px 0;
+}
+.sectionTwo p {
+  padding: 20px 0;
+}
+.sectionTwo {
+  width: 50%;
+  float: left;
+  height: 500px;
+  text-align: center;
+  padding-top: 80px;
+}
+section div a {
+  color: #1c2652;
+  border: solid 1px #1c2652;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+h3 {
+  text-align: center;
+}
+section .sectionTwo .thisTwo + p {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+footer {
+  background-color: #1c2652;
+  color: lightgrey;
+  width: 100%;
+ 
+  
+  float: left;
+}
+
+footer li a {
+ 
+  width: 100%;
+  color: lightgrey;
+  display: inline-block;
+}
+footer li a:hover {
+  color: #66758a;
+}
+footer ul{
+  margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align: left;
+  width: 100%;
+  float: left;
+
+  text-decoration: none;
+ 
+}
+
+footer .zero {
+  text-align: right;
+  width: 100%;
+padding-left: 10px;
+}
+ .blue{
+  
+  margin-left: 10px;
+ 
+}
+.bottomTw0{
+  padding-top: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
